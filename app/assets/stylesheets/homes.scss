@@ -1,0 +1,150 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+/* ヘッダー */
+header {
+  font-size: 20px;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  position: fixed;
+  display: flex;
+}
+
+.companyname {
+  width: 40vw;
+  background-color: blue;
+  text-align: center;
+}
+
+.navbar {
+  width: 60vw;
+  padding: 20px;
+  background-color: red;
+}
+
+.nav-lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+.mainimg {
+  padding: 230px 0 230px;
+  overflow: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
+  background: url(./dog.jpeg);
+}
+
+
+
+
+
+/* first-viewクラスからbottom-contentクラスまでの要素の親要素 */
+.contents {
+  background-color: white;
+  margin: 0 auto;
+}
+
+/*  経営理念  */
+.first-view{
+  height: 50vh;
+  background-color: #f1e8eb; 
+}
+
+.title1 {
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: center;
+  color: #335065;
+  border-bottom: double 5px #FFC778;
+}
+
+.text1 {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* 事業内容 */
+.second-view{
+  height:   100vh;
+  background-color: rgb(106, 108, 108);
+  color: white;
+}
+
+.title2 {
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: center;
+  color: #e3e9ed;
+  border-bottom: double 5px #FFC778;
+}
+
+.row  {
+  margin-right: -30px;
+  margin-left: -30px;
+
+}
+
+.img-contents {
+  width: 50%;
+  min-height: 1px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: 60px;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+}
+
+.txc {
+  text-align: center;
+}
+
+.mt30 {
+  margin-top: 30px;
+  text-align: center;
+
+}
+
+
+
+
+
+/* スタイリスト紹介 */
+.middle-content{
+  height: 450px;
+  background-color: aquamarine;
+}
+
+/* フォーム */
+.bottom-content {
+  height: 800px;
+  background-color:lightgreen;
+}
+
+/* フッター */
+footer {
+  height: 50px;
+  background-color: #f0f0f0;
+}
