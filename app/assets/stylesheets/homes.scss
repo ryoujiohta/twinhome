@@ -19,21 +19,20 @@ ul,li {
 header {
   font-size: 20px;
   background-color: #f0f0f0;
-  padding: 10px 0;
   position: fixed;
   display: flex;
 }
 
-.companyname {
+.company-name {
   width: 40vw;
-  background-color: blue;
+  background-color: #f0f0f0;
   text-align: center;
 }
 
 .navbar {
   width: 60vw;
   padding: 20px;
-  background-color: red;
+  background-color: #f0f0f0;
 
 }
 
@@ -46,15 +45,13 @@ li {
   list-style: none;
 }
 
-.mainimg {
-  padding: 230px 0 230px;
+/*  トップ画像を背景として設定*/
+.main-img {
+  padding: 230px 0;
   max-width: 100%;
   box-sizing: border-box;
   background: url(./dog.jpeg);
 }
-
-
-
 
 
 /* first-viewクラスからbottom-contentクラスまでの要素の親要素 */
@@ -151,7 +148,14 @@ li {
 }
 
 
-
+.footer {
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #335065;
+  color:#efca4f
+}
 
 
 /* スタイリスト紹介 */
