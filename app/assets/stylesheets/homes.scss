@@ -34,6 +34,7 @@ header {
   width: 60vw;
   padding: 20px;
   background-color: red;
+
 }
 
 .nav-lists {
@@ -65,7 +66,6 @@ li {
 
 /*  経営理念  */
 .first-view{
-  height: 50vh;
   background-color: #f1e8eb; 
 }
 
@@ -100,34 +100,35 @@ li {
   border-bottom: double 5px #FFC778;
 }
 
+
 .row  {
   margin-right: -30px;
   margin-left: -30px;
-
+  display: flex;
+  justify-content: center;
 }
 
 .img-contents {
-  width: 50%;
-  min-height: 1px;
   padding-right: 30px;
   padding-left: 30px;
   margin-bottom: 60px;
   display: block;
   box-sizing: border-box;
-  float: left;
 }
 
 .txc {
   text-align: center;
+  width: 500px;
 }
 
 .mt30 {
   margin-top: 30px;
   text-align: center;
+  width: 500px;
 
 }
 
-
+/*  会社概要  */
 
 
 
