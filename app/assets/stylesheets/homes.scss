@@ -48,7 +48,6 @@ li {
 
 .mainimg {
   padding: 230px 0 230px;
-  overflow: hidden;
   max-width: 100%;
   box-sizing: border-box;
   background: url(./dog.jpeg);
@@ -87,7 +86,6 @@ li {
 
 /* 事業内容 */
 .second-view{
-  height:   100vh;
   background-color: rgb(106, 108, 108);
   color: white;
 }
@@ -129,6 +127,28 @@ li {
 }
 
 /*  会社概要  */
+.company-info {
+  min-height: 1px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+.map {
+  overflow: hidden;
+  position: relative;
+  }
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  }
+
+/*  お問合せ*/
+
+
+
 
 
 
